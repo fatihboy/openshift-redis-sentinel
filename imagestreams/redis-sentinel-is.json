@@ -8,6 +8,6 @@
     }
   },
   "spec": {
-    "dockerImageRepository": "eliu/redis-sentinel"
+    "dockerImageRepository": "fatihboy/redis-sentinel"
   }
 }

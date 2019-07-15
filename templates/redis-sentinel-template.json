@@ -7,7 +7,7 @@
             "iconClass": "icon-redis",
             "openshift.io/display-name": "Redis Sentinel Cluster (Persistent)",
             "tags": "database,redis",
-            "template.openshift.io/provider-display-name": "eliu"
+            "template.openshift.io/provider-display-name": "fatihboy"
         },
         "name": "redis-sentinel"
     },
@@ -329,7 +329,7 @@
             "displayName": "Redis Docker Image Ref",
             "name": "REDIS_SENTINEL_IMAGE",
             "required": true,
-            "value": "eliu/redis-sentinel"
+            "value": "fatihboy/redis-sentinel"
         },
         {
             "description": "Redis Sentinel docker image tag",

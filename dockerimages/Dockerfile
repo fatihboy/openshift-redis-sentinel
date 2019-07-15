@@ -18,7 +18,7 @@ RUN set -x \
 	&& sed -i 's/dl-cdn.alpinelinux.org/mirrors.ustc.edu.cn/g' /etc/apk/repositories \
 	&& apk add --no-cache redis sed bash tzdata \
 	&& cp /usr/share/zoneinfo/Asia/Shanghai /etc/localtime \
-    && echo "Asia/Shanghai" > /etc/timezone \
+    && echo "Europe/Istanbul" > /etc/timezone \
     && apk del --no-cache tzdata
 
 COPY redis-master.conf /redis-master/redis.conf

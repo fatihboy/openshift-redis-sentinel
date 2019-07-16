@@ -17,7 +17,7 @@ FROM alpine:latest
 RUN set -x \
 	&& sed -i 's/dl-cdn.alpinelinux.org/mirrors.ustc.edu.cn/g' /etc/apk/repositories \
 	&& apk add --no-cache redis sed bash tzdata \
-	&& cp /usr/share/zoneinfo/Asia/Shanghai /etc/localtime \
+	&& cp /usr/share/zoneinfo/Europe/Istanbul /etc/localtime \
     && echo "Europe/Istanbul" > /etc/timezone \
     && apk del --no-cache tzdata
 
